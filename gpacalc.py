@@ -24,6 +24,7 @@ credit2 = int(input("Course 2 credis: "))
 credit3 = int(input("Course 3 credis: "))
 
 # PROCESSES
+
 total_credits = credit1 + credit2 + credit3
 gpa = (grade1*credit1 + grade2*credit2 + grade3*credit3) / total_credits
 
