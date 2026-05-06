@@ -1,10 +1,5 @@
-name = "justin"
-food = "s"
 
-if food and name: 
-    form_complete = True 
+food = "pizza"
 
-if form_complete: 
-    print(f"{name}'s favorite food is {food}")
-else: 
-    print("please fill out the form completely")
+if food == "burger" or "pizza":
+    print("Fast Food")
