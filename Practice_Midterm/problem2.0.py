@@ -1,5 +1,9 @@
 
-workout_logs = int(input("How many workouts have you done this week? "))
+workout_logs = input("How many workouts have you done this week? ")
+while not workout_logs.isdigit():
+    workout_logs = input("Please try again. Enter a whole number: ")
+# Once the loop finishes, you are guaranteed to have a valid number string
+workout_logs = int(workout_logs)
 logs= []
 for i in range(workout_logs):
     activity = input("What activity did you do? ").lower()
